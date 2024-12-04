@@ -29,10 +29,12 @@ This project demonstrates a simple Remote Procedure Call (RPC) implementation us
 
 - Navigate to the server folder:
 
+    ```bash
     cd RPCExample/server
 
 - Run the rpc_server.py script:
 
+    ```bash
     python rpc_server.py
 
 - The server will start listening on port 9000.
@@ -40,11 +42,14 @@ This project demonstrates a simple Remote Procedure Call (RPC) implementation us
 3. **Run the Client:**
 
 - Open another terminal and navigate to the client folder:
+    ```bash
     cd RPCExample/client
 - Run the rpc_client.py script:
     
+    ```bash
     python rpc_client.py
 - The result of the remote procedure call will be printed in the client terminal:
+    ```bash
     The result of the sum is: 8
 
 ## Code Explanation
@@ -52,6 +57,7 @@ This project demonstrates a simple Remote Procedure Call (RPC) implementation us
 We create an XML-RPC server using Python's SimpleXMLRPCServer class.
 The server exposes a method add that takes two integers and returns their sum.
 The server listens on localhost and port 9000.
-- Client Side (rpc_client.py)
+- 
+Client Side (rpc_client.py)
 The client connects to the XML-RPC server at localhost:9000.
 The client calls the add function exposed by the server and prints the result.
