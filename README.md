@@ -28,12 +28,10 @@ This project demonstrates a simple Remote Procedure Call (RPC) implementation us
 2. **Start the Server**:
 
 - Navigate to the server folder:
-
     ```bash
     cd RPCExample/server
 
 - Run the rpc_server.py script:
-
     ```bash
     python rpc_server.py
 
@@ -44,10 +42,11 @@ This project demonstrates a simple Remote Procedure Call (RPC) implementation us
 - Open another terminal and navigate to the client folder:
     ```bash
     cd RPCExample/client
+
 - Run the rpc_client.py script:
-    
     ```bash
     python rpc_client.py
+
 - The result of the remote procedure call will be printed in the client terminal:
     ```bash
     The result of the sum is: 8
