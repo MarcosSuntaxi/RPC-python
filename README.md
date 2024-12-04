@@ -6,7 +6,11 @@ This project demonstrates a simple Remote Procedure Call (RPC) implementation us
 
 ## Project Structure
 
-        RPCExample/ ├── server/ │ └── rpc_server.py ├── client/ │ └── rpc_client.py
+        RPCExample/ 
+        ├── server/ 
+        │   └── rpc_server.py 
+        ├── client/ 
+        │   └── rpc_client.py
 
 
 ---
@@ -53,10 +57,10 @@ This project demonstrates a simple Remote Procedure Call (RPC) implementation us
 
 ## Code Explanation
 - Server Side (rpc_server.py)
-We create an XML-RPC server using Python's SimpleXMLRPCServer class.
-The server exposes a method add that takes two integers and returns their sum.
-The server listens on localhost and port 9000.
+    We create an XML-RPC server using Python's SimpleXMLRPCServer class.
+    The server exposes a method add that takes two integers and returns their sum.
+    The server listens on localhost and port 9000.
 - 
 Client Side (rpc_client.py)
-The client connects to the XML-RPC server at localhost:9000.
-The client calls the add function exposed by the server and prints the result.
+    The client connects to the XML-RPC server at localhost:9000.
+    The client calls the add function exposed by the server and prints the result.
